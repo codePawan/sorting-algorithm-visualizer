@@ -31,7 +31,7 @@ const SortingVisualization = () => {
   };
 
   const changeArraySize = (event) => {
-    /* setSize global acces to change state function*/
+    
     setSize(parseInt(event.target.value));
     changeArray(parseInt(event.target.value));
   };
